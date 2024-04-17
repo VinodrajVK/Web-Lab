@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: bisque;
+}
 .top{
     width: 100%;
     background-color: orangered;
@@ -42,22 +45,20 @@ h1{
     color: orangered;
     font-size: 50px;
 }
-.bottom h3{
-    color: black;
-    font-size: 30px;
-    margin-top: 0px;
-}
 .bottom ul{
     list-style: none;
 }
 .bottom li{
     margin-top: 0.5%;
 }
-.bottom p,b{
+.bottom p{
     color: black;
     font-size: 20px;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+.bottom b{
+    font-size: 23px;
 }
 .projects,.education,.skills{
     margin-bottom: 1%;

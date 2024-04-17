@@ -1,14 +1,17 @@
 body {
     font-size: 20px;
-
+    background-color: blanchedalmond;
 }
 
 header,
 footer {
     color: black;
-    background-color: #E6E6FA;
+    background-color: rgba(249, 122, 76, 0.961);
 }
-
+footer {
+    text-align: center;
+    padding-bottom: 10px;
+}
 h1,
 h3 {
     color: black;
@@ -43,5 +46,6 @@ hr {
 }
 
 th {
-    background-color: #E6E6FA;
+    background-color: rgba(249, 122, 76, 0.961);
+    
 }
